@@ -1,0 +1,19 @@
+Source Code:
+
+
+
+print("\033[1m" + "Welcome to the Love Tester!" + "\033[0m")
+print ("Enter two names and find out how much they are in love!")
+print ("")
+import random
+while True:
+
+
+    name1=input("Enter first person name:")
+    name2=input("Enter second person name:")
+
+
+    print(f"{name1} and {name2} are {random.randint(0, 100)}% in love!")
+
+    if input("Type q to quit:") == "q":
+        break
